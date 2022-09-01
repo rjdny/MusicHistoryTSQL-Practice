@@ -1,0 +1,11 @@
+--SELECT a.Name as Author, g.Name as Grade
+--FROM Author a
+--JOIN Grade g ON a.GradeId = g.Id
+--WHERE a.Name = 'dasha'
+
+--SELECT a.Name, g.Name as Grade, COUNT(p.Id) as Poems
+--FROM Poem p
+--JOIN Author a ON p.AuthorId = a.Id
+--JOIN Grade g ON g.Id = a.GradeId
+--WHERE a.Name = 'dasha'
+--GROUP BY a.Name, g.Name
